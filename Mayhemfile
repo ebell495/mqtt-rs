@@ -1,0 +1,6 @@
+project: mqtt-rs
+target: mqtt-rs-fuzz
+
+cmds:
+    - cmd: ./mqtt-rs-fuzz
+      libfuzzer: true
